@@ -17,7 +17,7 @@ function Navbar() {
     {
       id: 1,
       link: "home",
-      route: "home"
+      route: ""
     },
     {
       id: 2,

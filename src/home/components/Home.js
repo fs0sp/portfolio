@@ -9,9 +9,6 @@ function Home() {
 
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-  }
   return (
     <div className={darkMode ? 'dark' : ""}>
       <div className='h-[calc(100vh-6rem)] dark:bg-gray-900'>
