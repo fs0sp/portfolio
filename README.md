@@ -8,12 +8,12 @@ Links to my online profiles, such as LinkedIn and GitHub
 Examples of my work, including projects and case studies
 
 ### Technologies Used
-Reacjs
-Tailwind
+- ReactJs
+- TailwindCSS
 
 ### Credits
-react-icons for the icon fonts used in the design.
-Google Fonts for the custom fonts used in the design.
+- react-icons for the icon fonts used in the design.
+- Google Fonts for the custom fonts used in the design.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
