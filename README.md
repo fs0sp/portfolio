@@ -21,8 +21,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Contact Me
 Feel free to contact me with any questions or comments about my personal website portfolio. I would love to hear from you!
 
-Email: shivampokhriyal@rocketmail.com
-LinkedIn: linkedin.com/in/shivampokhriyal
-GitHub: github.com/fs0sp
+- Email: shivampokhriyal@rocketmail.com
+- LinkedIn: linkedin.com/in/shivampokhriyal
+- GitHub: github.com/fs0sp
 
 *Thank you for visiting my personal website portfolio!*
