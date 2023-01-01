@@ -3,6 +3,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { ThemeContext } from "../providers/ThemeContext";
+
+
 function Navbar() {
 
   const [nav, setNav] = useState(false);
@@ -37,7 +39,8 @@ function Navbar() {
         <div className="max-w-6xl pt-8 my-0 mx-auto dark:bg-gray-900">
           <div className="flex justify-between items-center w-full h-16 px-4 text-black dark:text-white">
             <div>
-              <h1 className="text-2xl font-signature ml-2 dark:text-white">Shivam</h1>
+              {darkMode ?<img alt="dark logo" src="https://i.imgur.com/ajxVEM2.png"/>: <img alt="light logo" src="https://i.imgur.com/cgzYEdJ.png"/>}
+              
             </div>
             <div className="flex">
               <ul className="hidden md:flex">
