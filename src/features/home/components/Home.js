@@ -8,7 +8,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 import { redirectToBlog, redirectToGithub, redirectToLinkedin, redirectToResume } from '../../../utils/utils';
 import { ThemeContext } from '../../../providers/ThemeContext';
-import ResumePdf from "../../assets/ShivamPokhriyal_RESUME.pdf";
 
 function Home() {
 
