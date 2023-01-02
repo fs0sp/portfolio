@@ -16,7 +16,7 @@ function Projects() {
           return (
             <div key={index} className='mt-20 md:mt-10 flex flex-col md:flex-row gap-5'>
           <div className='basis-1/3 flex-1'>
-            <img src={item.image} />
+            <img alt='project icon' src={item.image} />
           </div>
           <div className='flex flex-col basis-1/3 flex-1'>
             <h4 className='font-semibold font-roboto text-2xl'>{item.title}</h4>
