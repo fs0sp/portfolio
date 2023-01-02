@@ -1,8 +1,12 @@
 import React, { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import { ThemeContext } from "../providers/ThemeContext";
+import { navBarLinks } from "../config/config";
+
 
 
 function Navbar() {
@@ -11,40 +15,29 @@ function Navbar() {
 
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
+  const navigate = useNavigate();
+
   const toggleTheme = () => {
     setDarkMode(!darkMode);
   }
 
-  const links = [
-    {
-      id: 1,
-      link: "home",
-      route: ""
-    },
-    {
-      id: 2,
-      link: "about",
-      route: "about"
-    },
-    {
-      id: 3,
-      link: "projects",
-      route: "projects"
-    },
-  ];
+  const routeToHome = (e) => {
+    let path = `/`;
+    navigate(path);
+  }
 
   return (
     <div className={darkMode ? 'dark' : ""}>
       <div className="dark:bg-gray-900">
         <div className="max-w-6xl pt-8 my-0 mx-auto dark:bg-gray-900">
           <div className="flex justify-between items-center w-full h-16 px-4 text-black dark:text-white">
-            <div>
-              {darkMode ?<img alt="dark logo" src="https://i.imgur.com/ajxVEM2.png"/>: <img alt="light logo" src="https://i.imgur.com/cgzYEdJ.png"/>}
-              
+            <div className="cursor-pointer">
+              {darkMode ? <img alt="dark logo" onClick={routeToHome} src="https://i.imgur.com/ajxVEM2.png" /> : <img alt="light logo" onClick={routeToHome} src="https://i.imgur.com/cgzYEdJ.png" />}
+
             </div>
             <div className="flex">
               <ul className="hidden md:flex">
-                {links.map(({ id, link, route }) => (
+                {navBarLinks.map(({ id, link, route }) => (
                   <li
                     key={id}
                     className="px-4 font-roboto cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
@@ -70,19 +63,17 @@ function Navbar() {
 
             {nav && (
               <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-                {links.map(({ id, link }) => (
+                {navBarLinks.map(({ id, link, route }) => (
                   <li
                     key={id}
                     className="px-4 cursor-pointer capitalize py-6 text-4xl"
                   >
                     <Link
                       onClick={() => setNav(!nav)}
-                      to={link}
-
+                      to={"/" + route}
                     >
                       {link}
                     </Link>
-
                   </li>
                 ))}
               </ul>

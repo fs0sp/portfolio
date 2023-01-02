@@ -25,3 +25,20 @@ export const projectDetails = [
   }
 ];
 
+export const navBarLinks = [
+  {
+    id: 1,
+    link: "home",
+    route: ""
+  },
+  {
+    id: 2,
+    link: "about",
+    route: "about"
+  },
+  {
+    id: 3,
+    link: "projects",
+    route: "projects"
+  },
+];

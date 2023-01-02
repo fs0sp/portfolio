@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 
-import { projectDetails } from '../../config/projectlist';
+import { projectDetails } from '../../config/config';
 
 import { BsGithub } from "react-icons/bs";
 import { FiLink } from "react-icons/fi";
@@ -9,7 +9,7 @@ import { ThemeContext } from '../../providers/ThemeContext';
 
 function Projects() {
 
-  const { darkMode, setDarkMode } = useContext(ThemeContext);
+  const { darkMode } = useContext(ThemeContext);
 
   return (
     <div className={darkMode ? 'dark' : ""}>

@@ -4,7 +4,7 @@ import { ThemeContext } from '../../providers/ThemeContext';
 
 function About() {
 
-  const { darkMode, setDarkMode } = useContext(ThemeContext);
+  const { darkMode } = useContext(ThemeContext);
 
   return (
     <div className={darkMode ? 'dark' : ""}>
