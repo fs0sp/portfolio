@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 
-import { projectDetails } from '../../config/config';
+import { projectDetails } from '../../../config/config';
 
 import { BsGithub } from "react-icons/bs";
 import { FiLink } from "react-icons/fi";
-import { ThemeContext } from '../../providers/ThemeContext';
+import { ThemeContext } from '../../../providers/ThemeContext';
 
 
 function Projects() {

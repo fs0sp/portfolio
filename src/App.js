@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import About from './about/components/About';
+import About from './features/about/components/About';
 import './App.css';
-import Home from './home/components/Home';
-import Projects from './projects/components/Projects';
+import Home from './features/home/components/Home';
+import Projects from './features/projects/components/Projects';
 
 function App() {
   return (

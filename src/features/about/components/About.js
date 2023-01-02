@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { FaCaretRight } from "react-icons/fa";
-import { ThemeContext } from '../../providers/ThemeContext';
+import { ThemeContext } from '../../../providers/ThemeContext';
 
 function About() {
 
