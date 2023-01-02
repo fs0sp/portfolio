@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import React from 'react';
 import Pdf from "../assets/ShivamPokhriyal_RESUME.pdf";
+
 
 export const redirectToGithub = (e) => {
   e.preventDefault();
@@ -20,4 +20,11 @@ export const redirectToBlog = (e) => {
 export const redirectToResume = (e) => {
   e.preventDefault();
   window.open(Pdf, '_blank');
+}
+
+export const RedirectToAboutPage = (e) => {
+  const navigate = useNavigate();
+  e.preventDefault();
+  let path = `/about`;
+  navigate(path);
 }
