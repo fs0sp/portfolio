@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import Pdf from "../assets/ShivamPokhriyal_RESUME.pdf";
 
+
 export const redirectToGithub = (e) => {
   e.preventDefault();
   window.open("https://github.com/fs0sp", '_blank');
