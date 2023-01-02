@@ -8,7 +8,7 @@ function About() {
 
   return (
     <div className={darkMode ? 'dark' : ""}>
-      <div className='dark:bg-gray-900'>
+      <div className='dark:bg-gray-900 pb-10'>
         <div className='pt-10 px-10 max-w-4xl my-0 mx-auto md:pt-20'>
           <div className='mt-10'>
             <h2 className='text-3xl font-semibold font-roboto text-gray-900 dark:text-gray-300'>Experience</h2>
