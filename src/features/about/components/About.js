@@ -30,6 +30,23 @@ function About() {
               <p className='pl-4 font-roboto mt-2 text-gray-700 dark:text-gray-500'>Completing a Bachelor's degree in Technology in the field of Computer Science has been a challenging and rewarding experience. Over the course of my studies, I have gained a strong foundation in the principles and practices of computer science, including programming languages, data structures, algorithms, and software development methodologies. I have also had the opportunity to apply my knowledge through hands-on projects and internships, which have allowed me to develop valuable technical skills and experience working on real-world problems. I am now well-prepared to enter the workforce as a competent and knowledgeable software engineer, ready to make a meaningful contribution to the field.</p>
             </div>
           </div>
+          <div className='mt-10'>
+            <h2 className='text-3xl font-semibold font-roboto text-gray-900 dark:text-gray-300'>Skills</h2>
+            <div className='mt-5 flex gap-2'>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>Java</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>JavaScript</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>TypeScript</p>
+            </div>
+            <div className='mt-5 flex gap-2'>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>ReactJs</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>Angular</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>Flutter</p>
+            </div>
+            <div className='mt-5 flex gap-2'>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>MongoDB</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>MySQL</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
