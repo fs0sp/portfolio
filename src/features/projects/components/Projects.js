@@ -5,6 +5,7 @@ import { projectDetails } from '../../../config/config';
 import { BsGithub } from "react-icons/bs";
 import { FiLink } from "react-icons/fi";
 import { ThemeContext } from '../../../providers/ThemeContext';
+import { redirectToLink } from '../../../utils/utils';
 
 
 function Projects() {
@@ -34,8 +35,8 @@ function Projects() {
                     </div>
                     <p className='font-roboto mb-4 dark:text-gray-400'>{item.desc}</p>
                     <div className='flex gap-3'>
-                      <BsGithub className='text-xl cursor-pointer dark:text-gray-300' />
-                      <FiLink className='text-xl cursor-pointer dark:text-gray-300' />
+                      <BsGithub onClick={() => redirectToLink(item.github)} className='text-xl cursor-pointer dark:text-gray-300' />
+                      <FiLink onClick={() => redirectToLink(item.link)} className='text-xl cursor-pointer dark:text-gray-300' />
                     </div>
                   </div>
                 </div>

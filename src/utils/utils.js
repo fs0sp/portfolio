@@ -17,6 +17,10 @@ export const redirectToBlog = (e) => {
   window.open("https://siliconvalleyoxford.com/", '_blank');
 }
 
+export const redirectToLink = (link) => {
+  window.open(link, "_blank");
+}
+
 export const redirectToResume = (e) => {
   e.preventDefault();
   window.open(Pdf, '_blank');
