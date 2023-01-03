@@ -46,6 +46,10 @@ function About() {
               <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>MongoDB</p>
               <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>MySQL</p>
             </div>
+            <div className='mt-5 flex gap-2'>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>SCSS</p>
+              <p className='w-min p-2 bg-orange-100 font-roboto rounded-sm'>TailwindCSS</p>
+            </div>
           </div>
         </div>
       </div>
