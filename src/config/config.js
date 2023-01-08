@@ -1,11 +1,11 @@
 export const projectDetails = [
   {
-    "title": "Job Application Tracker",
-    "image": "https://i.ibb.co/mC4z0c4/Screenshot-2021-11-30-at-3-12-33-AM.png",
+    "title": "1RM Logger",
+    "image": "https://i.imgur.com/WjwYGDg.png",
     "github": "#",
-    "link": "#",
-    "tech": ["Golang", "Django"],
-    "desc": "Piggment is a curated collection of amazingly colored gradients for designers, developers, and smart creators over the world. now you can generate, explore, save, easy CSS cross-browser gradient codes all in one place.",
+    "link": "https://1rm-logger.netlify.app/",
+    "tech": ["ReactJS", "MongoDB","ExpressJS","TailwindCSS"],
+    "desc": "Our website allows you to easily input and track your 1 rep max weights for a variety of exercises, including bench press, squat, and deadlift. With our user-friendly interface, you can see your progress over time and adjust your training accordingly.",
   },
   {
     "title": "Notepad++",
