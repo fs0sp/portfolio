@@ -8,12 +8,12 @@ export const projectDetails = [
     "desc": "Our website allows you to easily input and track your 1 rep max weights for a variety of exercises, including bench press, squat, and deadlift. With our user-friendly interface, you can see your progress over time and adjust your training accordingly.",
   },
   {
-    "title": "Notepad++",
-    "image": "https://i.ibb.co/mC4z0c4/Screenshot-2021-11-30-at-3-12-33-AM.png",
-    "github": "#",
-    "link": "#",
-    "tech": ["Flutter", "Angular"],
-    "desc": "Piggment is a curated collection of amazingly colored gradients for designers, developers, and smart creators over the world. now you can generate, explore, save, easy CSS cross-browser gradient codes all in one place.",
+    "title": "Codefest.Sh",
+    "image": "https://i.imgur.com/hyikqdz.png",
+    "github": "https://github.com/fs0sp/codefest",
+    "link": "https://codefestsh.netlify.app/",
+    "tech": ["ReactJS", "TailwindCSS"],
+    "desc": "Codefest is a premier destination for competitive programmers and coding enthusiasts, providing a comprehensive platform to discover and participate in coding contests from top websites like Codeforces, Leetcode and more.",
   },
   {
     "title": "Instabuzz",
