@@ -16,14 +16,6 @@ export const projectDetails = [
     "desc": "Codefest is a premier destination for competitive programmers and coding enthusiasts, providing a comprehensive platform to discover and participate in coding contests from top websites like Codeforces, Leetcode and more.",
   },
   {
-    "title": "Instabuzz",
-    "image": "https://i.ibb.co/q939Wxd/Screen-Shot-2019-11-23-at-2-27-08-PM.png",
-    "github": "#",
-    "link": "#",
-    "tech": ["Rich", "C++"],
-    "desc": "Piggment is a curated collection of amazingly colored gradients for designers, developers, and smart creators over the world. now you can generate, explore, save, easy CSS cross-browser gradient codes all in one place.",
-  },
-  {
     "title": "QKart",
     "image": "https://i.imgur.com/5Ia6Yx0.png",
     "github": "https://github.com/CrioDo/PROGRAM_DEVSPRINT_1611299302892-itechshivam2-ME_QKART_FRONTEND",
