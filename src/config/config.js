@@ -31,6 +31,14 @@ export const projectDetails = [
     "tech": ["ReactJS", "TailwindCSS", "Redux-Toolkit"],
     "desc": "A shopping cart website made using ReactJS, TailwindCSS, and Redux-Toolkit. Implemented state persistence using local storage. ",
   },
+  {
+    "title": "Zerodha Clone",
+    "image": "https://i.imgur.com/Lom2HJH.png",
+    "github": "#",
+    "link": "https://zerodhaclonesh.netlify.app/",
+    "tech": ["ReactJS", "TailwindCSS"],
+    "desc": "Welcome to our Zerodha website landing page clone. This platform offers a streamlined and modern approach to online trading. Join now and take the first step towards managing your investments with ease.",
+  },
   
 ];
 
