@@ -26,7 +26,7 @@ function Projects() {
                   </div>
                   <div className='flex flex-col basis-1/3 flex-1'>
                     <h4 className='font-semibold font-roboto text-2xl dark:text-gray-300'>{item.title}</h4>
-                    <div className='flex'>
+                    <div className='flex flex-wrap'>
                       {projectDetails[index].tech.map((tech, index2) => {
                         return (
                           <p key={index2} className='p-1 px-2 mr-2 my-2 bg-orange-100 font-roboto rounded-md'>{tech}</p>
